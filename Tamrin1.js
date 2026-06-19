@@ -28,38 +28,7 @@ class Tamrin1  extends Component {
    
 
      
-//     render() {
-//         const { isopen } = this.state;
-//         return (
-// <>
-// {isopen ?(
-//     <div >
-// <img src={img1} onClick={this.changeopenflag}></img>
-// <img src={img2}></img>
-// <div className="product-container">
-// <Product title="product_1" img={food1} price="230" desc="adfjkdasdjfkkasdfjks"></Product>
-// <Product title="product_2" img={food2} price="410" desc="ieriquweruqewiureurier"></Product>
-// <Product title="product_3" img={food3} price="32" desc="oiiioooiiioooo"></Product>
-// <Product title="product_4" img={food4} price="75" desc="eeweeeewwwwwwwww"></Product>
-// </div>
-// </div>
 
-// )
-// :(
-// <img src={img1} onClick={this.changeopenflag}></img>
-// )
-
-
-
-
-//     }
-// </>
-
-//         );
-//     }
-// }
- 
-// export default Tamrin1 ;
 render() {
     const { isopen } = this.state;
     return (
