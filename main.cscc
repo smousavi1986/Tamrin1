@@ -1,0 +1,61 @@
+.accordion-wrapper {
+    width: 90%;
+    margin: 20px auto;
+
+    .accordion-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: all 0.3s ease; 
+        border: 1px solid #ccc;
+        background-color: #eee; 
+        
+       
+        border-radius: 8px 8px 8px 8px;
+
+        &.open {
+            background-color: #6495ED; 
+            color: white;
+            border-radius: 8px 8px 0 0; 
+        }
+
+        .arrow-icon {
+            transition: transform 0.3s ease; 
+            font-weight: bold;
+        }
+
+        &.open .arrow-icon {
+            transform: rotate(180deg); 
+        }
+    }
+
+    .product-container {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-top: none; // برای اینکه به هدر بچسبد
+        background-color: white;
+    }
+}
+.product-card {
+    border: 1px solid #eee;
+    padding: 10px;
+    width: 22%; // برای قرارگیری ۴ تا در یک خط
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+
+    .price-badge {
+        background-color: yellow;
+        padding: 2px 8px;
+        font-weight: bold;
+        display: inline-block;
+        margin: 5px 0;
+    }
+    img {
+height: 200px;
+width: 200px;
+    }
+}
